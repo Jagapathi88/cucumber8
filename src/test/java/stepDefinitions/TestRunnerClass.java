@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features ="src\\test\\java\\FeaturesFiles", glue={"stepDefinitions","cucumber8.Base"},
+@CucumberOptions(features ="src\\test\\java\\FeaturesFiles", glue={"stepDefinitions","cucumber8.Base"},tags = "@LetsShop",
 plugin= {"pretty","html:target/cucumber-reports.html","json:target/cucumber.json","rerun:target/rerun.txt"})
 
 

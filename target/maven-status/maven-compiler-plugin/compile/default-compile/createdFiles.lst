@@ -1,0 +1,5 @@
+pageObjects\HomePageObjects.class
+cucumber8\Base\BaseClass.class
+pageObjects\LetsShopHomePageObjects.class
+cucumber8\Base\Hooks.class
+pageObjects\LetsShopLoginPageObjects.class

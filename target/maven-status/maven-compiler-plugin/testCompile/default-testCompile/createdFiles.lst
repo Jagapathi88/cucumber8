@@ -1,0 +1,6 @@
+stepDefinitions\CommonStepsForFlightBooking.class
+Practice\PracticeClass.class
+stepDefinitions\AddItemsToCart_LetsShop.class
+stepDefinitions\OneWayFlightBooking.class
+stepDefinitions\RoundTripFlightBooking.class
+stepDefinitions\TestRunnerClass.class

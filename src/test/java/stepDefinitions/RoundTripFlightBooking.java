@@ -15,15 +15,15 @@ public class RoundTripFlightBooking  {
 	 WebDriver driver = Hooks.base.driver;
 	HomePageObjects homepage = new HomePageObjects(driver);
 
-	@Given("user logins into QAClickJet webpage")
-	public void loginIntoHomePage() {
-		//launchUrl();
-	}
-
-	@When("user is on home page")
-	public void user_is_on_home_page() {
-		System.out.println("User is on home page");
-	}
+//	@Given("user logins into QAClickJet webpage")
+//	public void loginIntoHomePage() {
+//		//launchUrl();
+//	}
+//
+//	@When("user is on home page")
+//	public void user_is_on_home_page() {
+//		System.out.println("User is on home page");
+//	}
 
 	//@Then("Enter {string} name")
 	@Then("^Enter \"([^\"]*)\" name$")
@@ -50,11 +50,11 @@ public class RoundTripFlightBooking  {
 		homepage.selectArrCity(s2);
 	}
 
-	@Then("Select Depature date")
-	public void Select_Depature_date() {
-
-		homepage.selectDepdate();
-	}
+//	@Then("Select Depature date")
+//	public void Select_Depature_date() {
+//
+//		homepage.selectDepdate();
+//	}
 
 	@Then("Select return date")
 	public void Select_return_date() {
@@ -62,11 +62,11 @@ public class RoundTripFlightBooking  {
 		homepage.selectArrdate();
 	}
 
-	@Then("click on Passengers tab")
-	public void click_on_Passengers_tab() {
-
-		homepage.clickOnPassengers();
-	}
+//	@Then("click on Passengers tab")
+//	public void click_on_Passengers_tab() {
+//
+//		homepage.clickOnPassengers();
+//	}
 
 	@And("select {int} adults")
 	public void selectAdult(int n1) {
@@ -87,14 +87,12 @@ public class RoundTripFlightBooking  {
 		homepage.selectCurrency(s5);
 	}
 
-	@Then("click on Search")
-	public void selectSearch() {
-
-		System.out.println("Clicked on search button");
-		//tearDown();
-		System.out.println("In feature file");
-		System.out.println();
-		System.out.println();
-		System.out.println("Hi");
-	}
+//	@Then("click on Search")
+//	public void selectSearch() {
+//
+//		System.out.println("Clicked on search button");
+//		//tearDown();
+//		System.out.println("In feature file");
+//		
+//	}
 }
