@@ -1,4 +1,4 @@
-@LetsShop
+@LetsShops
 Feature: Add items to Cart
 
   Scenario: Login into Lets shop website and add items to cart
