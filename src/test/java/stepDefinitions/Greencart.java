@@ -25,7 +25,9 @@ public class Greencart {
     	for(String s1:s)
     	{
     		greenCart.addToCart(s1);
-			System.out.println("feature1");
+
+			System.out.println("Master");
+
     	}
     	try {
 			Thread.sleep(6000);
