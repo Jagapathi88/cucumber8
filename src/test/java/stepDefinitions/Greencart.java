@@ -33,7 +33,9 @@ public class Greencart {
 			Thread.sleep(6000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
+
 			System.out.println("feature1");
+
 			e.printStackTrace();
 		}
     }
