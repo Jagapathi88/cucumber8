@@ -88,5 +88,6 @@ public class AbhiBusBooking {
 	    public void enterDate(int n)
 	    {
 	    	bus.selectDepartureDate1(String.valueOf(n));
+	    	System.out.println("feature1");
 	    }
 }
