@@ -19,8 +19,8 @@ public class AddItemsToCart_LetsShop {
 	@Given ("User is in Login Page of lets shop website")
 	public void User_is_in_Login_Page_of_lets_shop_website()
 	{
-        System.out.println("demo");
-        //User is in Login Page1
+
+        System.out.println("User is in Login Page1");
 	}
 	
      @Then("user enters Username and password")
